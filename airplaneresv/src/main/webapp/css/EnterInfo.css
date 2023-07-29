@@ -1,0 +1,181 @@
+@charset "ISO-8859-1"; 
+
+
+
+
+* { 
+    margin: 0; 
+    padding: 0;  
+    font-family: 'Raleway', sans-serif; 
+    scroll-behavior: smooth;
+    font-size: 16px;
+}  
+
+body{ 
+    margin: 0; 
+    background-color: aliceblue; 
+    height: 100%;
+}
+
+li { 
+    list-style: none; 
+
+} 
+div{ 
+    display: block; 
+   
+} 
+
+p{ 
+    color: black; 
+    padding: 20px;
+}  
+
+h1{ 
+    color: black; 
+    font-size: 3em;   
+    word-spacing: 5px; 
+    text-align: center;   
+    font-style: normal; 
+    font-weight: 300; 
+}
+
+#wrapform{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    padding: 20px; 
+    
+} 
+
+#innerwrap{ 
+    margin-top: 100px; 
+    border-radius: 2px; 
+    border-color: #10103b; 
+    border-width: 2px; 
+    border-style: solid; 
+    padding: 40px; 
+	max-width: 1700px;
+} 
+
+
+
+input[type=submit], input[type=reset] {
+    background-color:#10103b;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer; 
+    margin-top: 20px; 
+    margin-left: 10px; 
+    transition: all 300ms ease-in-out;
+} 
+
+input[type=submit]:hover, input[type=reset]:hover{ 
+    background-color: rgb(20, 20, 133); 
+    
+    
+}
+
+
+
+input[type=text], input[type=email], input[type=tel], input[type=password]  {
+    
+    padding: 8px 8px;
+    margin: 2px 0;
+    box-sizing: border-box; 
+    width: 500px;
+} 
+
+
+#goback{ 
+    background-color:#10103b;
+    color: #fff;
+    border:none; 
+    
+    
+    width: 70px; 
+    height: 40px; 
+    text-align: center; 
+    transition: all 300ms ease-in-out;  
+    margin: 20px;
+} 
+
+#goback:hover{ 
+    cursor: pointer;   
+    background-color: rgb(19, 19, 110);
+} 
+
+#tablest{ 
+    border-collapse: collapse;
+    border: 1px solid;
+    padding: 15px;
+}
+
+#tablest th{ 
+    border: 1px solid;
+    padding: 15px;
+
+} 
+
+#tablest td{ 
+    border: 1px solid;
+    padding: 5px;
+	font-weight: 600;
+}
+
+#centerdiv{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding: 15px; 
+    flex-wrap: wrap;
+}
+
+
+#divleft{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+} 
+
+#divright{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+}
+
+
+#dbutton{ 
+    border-radius: 10%; 
+    border-style: none; 
+    width: fit-content; 
+    height: fit-content;
+} 
+
+
+#citdisplay{ 
+	text-align: center;  
+	padding-top: 50px;
+	padding-bottom: 200px; 
+	max-width: 100%;
+}
+
+#citdisplay h2{ 
+	font-size: 15px; 
+	margin-top: 20px; 
+	font-weight: 300;
+}
+
+#buttondiv{ 
+	display: flex; 
+	justify-content: center; 
+	flex-direction: column; 
+	align-items: center; 
+	margin-bottom: 20px;
+}
