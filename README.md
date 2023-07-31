@@ -1,4 +1,4 @@
-# Citation-Generator (not done)
+# Citation-Generator (not done but works)
 A citation Generator that uses a login and register system. It uses JSP, JAVA, and SQL. The project runs on the apache tomcat server 9.0. 
 
 The index.jsp page features a login and registration page. Both the login and registration interact with your SQL database via Java servlets. After logging in, you can view old citations or make new citations. Pressing on make citation will prompt you to enter the format, author, article title, and more. It will also ask for a project name. The name you give can be used later for searching up old citations. If you press on view old citations you can show all or search by the project name you gave. On display, it gives you the citation the date accessed, the project name, and the option to delete it. The citations are stored in their own table with a column that holds the user's unique id(first time using SQL so not sure if this is the right approach). 
